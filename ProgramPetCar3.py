@@ -57,3 +57,19 @@ def fasilitasA () :
             anjing ()
     else :
         print ("Tidak Tersedia")
+def fasilitasK () :
+    print ("List fasilitas yang tersedia:")
+    print ("[1] : Klinik")
+    print ("[2] : Grooming")
+    print ("[3] : Penitipan")
+    fsl = input("Input fasilitas yang digunakan :")
+    if fsl == "1" :
+         kucing ()
+    elif fsl == "2" :
+            harga = 50000*jumlah
+            print("Biaya Grooming untuk kucing sebesar Rp.50000/kucing.")
+            print("Total biaya Grooming : Rp.", harga)
+    elif fsl == "3" :
+            inapkucing ()
+    else :
+        print ("Tidak Tersedia")
