@@ -1,3 +1,4 @@
+iterasi = True
 def klinik () : 
     jumlah = int(input("Input Jumlah Hewan : "))
     print ("Poliklinik Hewan 'Pet Car3' ")
