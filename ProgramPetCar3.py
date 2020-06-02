@@ -1,7 +1,7 @@
 iterasi = True
 def klinik () : 
     jumlah = int(input("Input Jumlah Hewan : "))
-    print ("Poliklinik Hewan '8Care' ")
+    print ("Poliklinik Hewan 'PetCare' ")
     print ("[1] : Konsultasi Dokter")
     print ("[2] : Vaksinasi")
     print ("[3] : lain-lain")
@@ -21,7 +21,7 @@ def klinik () :
 
        
 def kucing () :
-    print ("Poliklinik Hewan '8Care' ")
+    print ("Poliklinik Hewan 'PetCare' ")
     print ("[1] : Konsultasi Dokter")
     print ("[2] : Vaksinasi")
     print ("[3] : lain-lain")
