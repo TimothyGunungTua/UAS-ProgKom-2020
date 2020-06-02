@@ -44,17 +44,18 @@ def anjing():
     time1()
     print("Jenis hewan : Anjing")
     if selisih_tgl.days > 0 :
-        if round(durasijam) > 0 :  
-            bayar = ((selisih_tgl.days * 25000) *jumlah)
+        if round(durasijam) > 0 :
+            bayar = ((selisih_tgl.days * 25000)*jumlah)
             print("Tarif inap per hewan : Rp.", (selisih_tgl.days*25000))
             print("Tarif total : Rp.", bayar)
         else :
             bayar = ((selisih_tgl.days * 25000))*jumlah
             print("Tarif per hewan : Rp.", selisih_tgl.days*25000)
             print("Tarif total : Rp ", bayar)
-                
     else:
-        kucingnginep()
+        bayar =  (25000)*jumlah
+        print("Tarif per hewan : Rp.", 25000)
+        print("Tarif total : Rp ", bayar)
         
         
         
@@ -70,8 +71,11 @@ def kucingnginep():
             bayar = ((selisih_tgl.days * 20000))*jumlah
             print("Tarif per hewan : Rp.", selisih_tgl.days*20000)
             print("Tarif total : Rp ", bayar)
-     else:
-        anjing ()
+    else:
+        bayar =  (20000)*jumlah
+        print("Tarif per hewan : Rp.", 20000)
+        print("Tarif total : Rp ", bayar)
+        
             
 def klinik () : 
     jumlah = int(input("Input Jumlah Hewan : "))
