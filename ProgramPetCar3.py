@@ -112,8 +112,7 @@ def kucing () :
         print ("Harga vaksinasi : Rp.80000 per hewan")
         print ("Total harga vaksinasi : Rp.", harga_vaksin)
     elif klk == "3" :
-        lain = 120000*jumlah
-        print ("Total biaya perawatan lain-lain : Rp.120000 per hewan")
+        lain = int(input("Harga :"))
         print ("Total harga perawatan lain-lain : Rp.", lain)
 
 
