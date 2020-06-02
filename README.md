@@ -1,6 +1,6 @@
 # UAS-ProgKom-2020
 Tugas UAS Program Komputer Kelompok 3 Kelas C tentang perhitungan operasional Salon Hewan
-· Penjelasan dalam menjalankan Program Pet Car3 ·
+- · Penjelasan dalam menjalankan Program Pet Car3 · -
   1. Input nama petugas 
   2. Input nama pemilik hewan
   3. Menginput jenis hewan
