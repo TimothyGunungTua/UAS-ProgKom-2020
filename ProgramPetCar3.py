@@ -70,6 +70,50 @@ def fasilitasK () :
             print("Biaya Grooming untuk kucing sebesar Rp.50000/kucing.")
             print("Total biaya Grooming : Rp.", harga)
     elif fsl == "3" :
-            inapkucing ()
+            kucingnginep ()
     else :
         print ("Tidak Tersedia")
+        
+       
+print ("===============================================================")
+print ("                           PET CARE                                  ")
+print ("===============================================================")
+print ()
+print (input("Input Nama Petugas : "))
+print (input("Input Nama Pemilik : "))
+print ("[1] : Anjing")
+print ("[2]: Kucing")
+jenis = int(input("Input Jenis Hewan : "))
+
+if jenis == 1:
+    jumlah = int(input("Input Jumlah Hewan : "))
+    fasilitasA ()
+    while iterasi:
+        next = input("Tambah operasi lainnya untuk jenis hewan yang sama? (y/n) : ")
+        if next == "y":
+           jumlah = int(input("Input Jumlah Hewan : "))
+           fasilitasA ()
+        elif next == "n":
+           print("Terima kasih telah berkunjung")
+           iterasi = False
+        else:
+            print("Sistem error silahkan ulangi")
+            iterasi = False
+            
+      
+elif jenis == 2:
+    jumlah = int(input("Input Jumlah Hewan : "))
+    fasilitasK ()
+    while iterasi:
+        next = input("Tambah operasi lainnya untuk jenis hewan yang sama? (y/n) : ")
+        if next == "y":
+           jumlah = int(input("Input Jumlah Hewan : "))
+           fasilitasK ()
+        elif next == "n" :
+           print("Terima kasih telah berkunjung")
+           iterasi = False
+        else:
+            print("Sistem error silahkan ulangi")
+            iterasi = False
+else:
+    print("Error, silahkan ulangi")
