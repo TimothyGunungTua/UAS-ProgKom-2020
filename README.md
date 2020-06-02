@@ -23,15 +23,15 @@ Tugas UAS Program Komputer Kelompok 3 Kelas C tentang perhitungan operasional Sa
       variabel yang digunakan dalam total harga adalah jenis jasa * jumlah hewan
   9. Apabila memilih fasilitas 'Grooming', maka akan dilanjutkan menginput jumlah hewan yang akan menggunakan fasilitas tersebut
   10. Setelah memilih fasilitas 'Grooming', maka akan muncul total harga yang harus dibayar
-      Harga 'Grooming' pada kucing       Rp 50.000/ekor
-      Harga 'Grooming' pada anjing       Rp 65.000/ekor
+      - Harga 'Grooming' pada kucing       Rp 50.000/ekor
+      - Harga 'Grooming' pada anjing       Rp 65.000/ekor
         variabel yang digunakan dalam total harga adalah jenis hewan * jumlah hewan
   11. Apabila memilih fasilitas 'Penitipan', maka akan dilanjutkan menginput jumlah hewan yang akan menggunakan fasilitas tersebut
   12. Menginput tanggal dan waktu masuk hewan
         dalam format tanggal,bulan,jam, dan menit
   13. Kemudian akan muncul total harga yang harus dibayar
-      Tarif penitipan kucing(/hari)         Rp  20.000/ekor
-      Tarif penitipan anjing(/hari)         Rp  25.000/ekor
+      - Tarif penitipan kucing(/hari)         Rp  20.000/ekor
+      - Tarif penitipan anjing(/hari)         Rp  25.000/ekor
         variabel yang digunakan dalam total harga adalah lama waktu penitipan * tarif jenis hewan * jumlah hewan
   14. Apabila ingin menambah fasilitas lain maka program akan kembali ke langkah nomor 4
   15. Apabila tidak menambah fasilitas lain maka program akan berhenti
