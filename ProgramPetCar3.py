@@ -1,4 +1,76 @@
 iterasi = True
+
+def time1(): 
+    from datetime import date
+    import datetime
+    tanggal = int(input("Silahkan Input Tanggal dan Waktu Masuk\nTanggal (1-31)     : "))
+    bulan = int(input("Bulan (1-12)       : "))
+    tahun = 2020
+    jam   = int(input("Jam (format 24 jam): "))
+    menit = int(input("Menit (0-60)       : "))
+    detik = int(input("Detik (0-60)       : "))
+    
+    global selisih_tgl
+    global durasijam
+    
+    tgl_in = date(tahun, bulan, tanggal)
+    tgl_out = date.today()
+    selisih_tgl= tgl_out - tgl_in
+    
+    #waktu masuk
+    wkt_in = (jam*3600 + menit*60 + detik)
+
+    #waktu keluar
+    x = datetime.datetime.now()
+    jam_out = x.hour
+    menit_out= x.minute
+    detik_out = x.second
+    wkt_out = (jam_out*3600)+(menit_out*60)+(detik_out)
+
+    import math
+    selisih_wkt = wkt_out - wkt_in
+    durasijam= math.ceil(selisih_wkt/3600)
+
+    print()
+    print("----------------------------------")
+    print("       Billing PetCare 2020 ")
+    print("----------------------------------")
+    print("Masuk ", "\n  ",tgl_in, "\n   pukul", jam,":", menit,":", detik)
+    print("Keluar \n  ", tgl_out, "\n   pukul",jam_out,":",menit_out,":",detik_out )
+    print('Peliharaan anda menginap selama :')
+    print("  ",selisih_tgl.days, 'hari ', durasijam,"jam")
+    
+def anjing():
+    time1()
+    print("Jenis hewan : anjing")
+    if selisih_tgl.days > 0 :
+            bayar = ((selisih_tgl.days * 25000) + 3000)*jumlah
+            print("Tarif inap per hewan : Rp.",(selisih_tgl.days*25000) + 3000)
+            #print("Tarif           : Rp ", bayar)
+            print("Tarif inap total : Rp ", bayar)
+                
+    else:
+        bayar =  20000*jumlah
+        print("Tarif per hewan : Rp.", 2000)
+        print("Tarif total : Rp ", bayar)
+        
+        
+def kucingnginep():
+    time1()
+    print("Jenis hewan : kucing")
+    if selisih_tgl.days > 0 :
+        if round(durasijam) > 0 :
+            bayar = ((selisih_tgl.days * 25000) + 3000)*jumlah
+            print("Tarif inap per hewan : Rp.", (selisih_tgl.days*25000) + 3000)
+            print("Tarif total : Rp.", bayar)
+        else :
+            bayar = ((selisih_tgl.days * 25000))*jumlah
+            print("Tarif per hewan : Rp.", selisih_tgl.days*25000)
+            print("Tarif total : Rp ", bayar)
+    else:
+        bayar =  (3000)*jumlah
+        print("Tarif per hewan : Rp.", 3000)
+        print("Tarif total : Rp ", bayar)
 def klinik () : 
     jumlah = int(input("Input Jumlah Hewan : "))
     print ("Poliklinik Hewan 'PetCare' ")
