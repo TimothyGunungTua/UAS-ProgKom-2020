@@ -87,8 +87,7 @@ def klinik () :
         print("Harga vaksinasi : Rp.100000 per hewan" )
         print("Total harga vaksinasi : Rp.", harga_vaksin)
     elif klk == "3" :
-        lain = 150000*jumlah
-        print("Total biaya perawatan lain-lain : Rp.150000 per hewan")
+        lain = int(input("Harga :"))
         print("Total harga perawatan lain-lain : Rp.", lain)
 
        
