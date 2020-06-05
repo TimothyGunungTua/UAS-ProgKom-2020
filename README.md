@@ -1,6 +1,6 @@
 # UAS-ProgKom-2020
 Tugas UAS Programa Komputer Kelompok 3 Kelas C
-Program Pet Car3 adalah program yang dijalankan pada meja kasir klinik dan toko hewan "Pet Car3"
+> Program Pet Car3 adalah program yang dijalankan pada meja kasir klinik dan toko hewan "Pet Car3"
 # Katalog Fasilitas Program
   - Klinik Hewan
     - Konsultasi Dokter
