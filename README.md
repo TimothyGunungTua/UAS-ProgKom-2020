@@ -10,7 +10,8 @@ Tugas UAS Programa Komputer Kelompok 3 Kelas C
       - Anjing  Rp 100.000/ekor
       - Kucing  Rp 80.000/ekor
     - lain- lain
-      - harga menyesuaikan
+      - Anjing Rp 50.000/ekor
+      - Kucing Rp 45.000/ekor
   - Grooming
     - Anjing  Rp 65.000/ekor
     - Kucing  Rp 50.000/ekor
