@@ -132,7 +132,7 @@ def fasilitasA () :
         klinik()   
     elif fsl == "2" :
         jumlah7=int(input("Jumlah hewan:"))
-        harga = 65000*jumlah
+        harga = 65000*jumlah7
         print("Harga Grooming Rp.65000 per hewan")
         print("Total harga Grooming : Rp.", harga)
     elif fsl == "3" :
