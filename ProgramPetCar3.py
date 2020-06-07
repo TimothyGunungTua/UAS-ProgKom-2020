@@ -96,9 +96,10 @@ def klinik () :
         print("Harga vaksinasi : Rp.100000 per hewan" )
         print("Total harga vaksinasi : Rp.", harga_vaksin)
     elif klk == "3" :
+        print("Biaya operasi lainnya per anjing : Rp.50000")
         jumlah3 = int(input("Jumlah hewan:"))
-        lain = int(input("Harga :"))*(jumlah3)
-        print("Total harga perawatan lain-lain : Rp.", lain)
+        lain = 50000
+        print("Total harga perawatan lain-lain : Rp.", lain*jumlah3)
 
        
 def kucing () :
@@ -118,8 +119,10 @@ def kucing () :
         print ("Harga vaksinasi : Rp.80000 per hewan")
         print ("Total harga vaksinasi : Rp.", harga_vaksin)
     elif klk == "3" :
-        lain = int(input("Harga :"))
-        print ("Total harga perawatan lain-lain : Rp.", lain)
+        print("Biaya operasi lainnya per kucing : Rp.45000")
+        lain = 45000
+        jumlah11 = int(input("Jumlah hewan : "))
+        print ("Total harga perawatan lain-lain : Rp.", lain*jumlah11)
 
 
 def fasilitasA () :
