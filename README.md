@@ -9,7 +9,7 @@ Tugas UAS Programa Komputer Kelompok 3 Kelas C
     - Vaksinasi (/vaksin)
       - Anjing  Rp 100.000/ekor
       - Kucing  Rp 80.000/ekor
-    - lain- lain
+    - Obat Bius
       - Anjing Rp 50.000/ekor
       - Kucing Rp 45.000/ekor
   - Grooming
