@@ -15,7 +15,7 @@ Tugas UAS Programa Komputer Kelompok 3 Kelas C
   - Grooming
     - Anjing  Rp 65.000/ekor
     - Kucing  Rp 50.000/ekor
-  - Penitipan/Pet Hotel (/hari) 
+  - Penitipan\Pet Hotel (/hari) 
     - Anjing  Rp 25.000/ekor
     - Kucing  Rp 20.000/ekor
  
