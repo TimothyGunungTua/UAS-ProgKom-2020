@@ -79,7 +79,7 @@ def kucingnginep():
         print("Tarif total : Rp ", bayar)
         
             
-def klinik () : 
+def klinikA () : 
     print ("Poliklinik Hewan 'PetCare' ")
     print ("[1] : Konsultasi Dokter")
     print ("[2] : Vaksinasi")
@@ -102,7 +102,7 @@ def klinik () :
         print("Total harga obat bius : Rp.", lain*jumlah3)
 
        
-def kucing () :
+def klinikK () :
     print ("Poliklinik Hewan 'PetCare' ")
     print ("[1] : Konsultasi Dokter")
     print ("[2] : Vaksinasi")
@@ -132,7 +132,7 @@ def fasilitasA () :
     print ("[3] : Penitipan")
     fsl = input("Input fasilitas yang digunakan :")
     if fsl == "1" :
-        klinik()   
+        klinikA()   
     elif fsl == "2" :
         jumlah7=int(input("Jumlah hewan:"))
         harga = 65000*jumlah7
@@ -150,7 +150,7 @@ def fasilitasK () :
     print ("[3] : Penitipan")
     fsl = input("Input fasilitas yang digunakan :")
     if fsl == "1" :
-         kucing ()
+         klinikK ()
     elif fsl == "2" :
         jumlah8 = int(input("Jumlah hewan:"))
         harga = 50000*(jumlah8)
@@ -160,15 +160,50 @@ def fasilitasK () :
         kucingnginep ()
     else :
         print ("Tidak Tersedia")
-        
-       
+
+def fasilitasC () :
+    print ("List fasilitas yang tersedia:")
+    print ("[1] : Klinik")
+    print ("[2] : Grooming")
+    print ("[3] : Penitipan")
+    fsl = input("Input fasilitas yang digunakan :")
+    if fsl == "1" :
+        print ("Input Jenis Hewan \n[1] : Anjing \n[2] : Kucing")
+        jns = input ("Input Jenis Hewan :")
+        if jns == "1" :
+            klinikA ()
+        else :
+            klinikK ()
+    elif fsl == "2" :
+        print ("Input Jenis Hewan \n[1] : Anjing \n[2] : Kucing")
+        jns = input ("Input Jenis Hewan :")
+        if jns == "1" :
+            jumlah22 = int(input("Jumlah hewan:"))
+            harga = 65000*(jumlah22)
+            print("Biaya Grooming untuk anjing sebesar Rp.65000/ekor.")
+            print("Total biaya Grooming : Rp.", harga)
+        else :
+            jumlah23 = int(input("Jumlah hewan:"))
+            harga = 50000*(jumlah23)
+            print("Biaya Grooming untuk kucing sebesar Rp.50000/ekor.")
+            print("Total biaya Grooming : Rp.", harga)
+    elif fsl == "3" :
+        print ("Input Jenis Hewan \n[1] : Anjing \n[2] : Kucing")
+        jns = input ("Input Jenis Hewan :")
+        if jns == "1" :
+            anjing ()
+        else :
+            kucingnginep ()
+    else :
+        print ("Tidak Tersedia")
+            
 print ("===============================================================")
-print ("                           PET CARE                                  ")
+print ("                           PET CARE                            ")
 print ("===============================================================")
 print ()
 print (input("Input Nama Petugas : "))
 print (input("Input Nama Pemilik : "))
-print ("[1] : Anjing")
+print ("[1]: Anjing")
 print ("[2]: Kucing")
 jenis = int(input("Input Jenis Hewan : "))
 
@@ -200,5 +235,20 @@ elif jenis == 2:
         else:
             print("Sistem error silahkan ulangi")
             iterasi = False
+
+elif jenis == 3 :
+    fasilitasC ()
+    while iterasi:
+        next = input("Tambah operasi lainnya ? (y/n) : ")
+        if next == "y":
+           jumlah = int(input("Input Jumlah Hewan : "))
+           fasilitasC ()
+        elif next == "n" :
+           print("Terima kasih telah berkunjung")
+           iterasi = False
+        else:
+            print("Sistem error silahkan ulangi")
+            iterasi = False
+            
 else:
     print("Error, silahkan ulangi")
