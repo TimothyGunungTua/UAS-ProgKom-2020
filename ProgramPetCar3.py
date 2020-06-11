@@ -212,7 +212,6 @@ if jenis == 1:
     while iterasi:
         next = input("Tambah operasi lainnya untuk jenis hewan yang sama? (y/n) : ")
         if next == "y":
-           jumlah = int(input("Input Jumlah Hewan : "))
            fasilitasA ()
         elif next == "n":
            print("Terima kasih telah berkunjung")
@@ -227,7 +226,6 @@ elif jenis == 2:
     while iterasi:
         next = input("Tambah operasi lainnya untuk jenis hewan yang sama? (y/n) : ")
         if next == "y":
-           jumlah = int(input("Input Jumlah Hewan : "))
            fasilitasK ()
         elif next == "n" :
            print("Terima kasih telah berkunjung")
@@ -241,7 +239,6 @@ elif jenis == 3 :
     while iterasi:
         next = input("Tambah operasi lainnya ? (y/n) : ")
         if next == "y":
-           jumlah = int(input("Input Jumlah Hewan : "))
            fasilitasC ()
         elif next == "n" :
            print("Terima kasih telah berkunjung")
