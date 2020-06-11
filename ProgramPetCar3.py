@@ -57,9 +57,7 @@ def anjing():
         bayar =  (25000)*jumlaha
         print("Tarif per hewan : Rp.", 25000)
         print("Tarif total : Rp ", bayar)
-        
-        
-        
+               
 def kucingnginep():
     time1()
     print("Jenis hewan : Kucing")
@@ -205,6 +203,7 @@ print (input("Input Nama Petugas : "))
 print (input("Input Nama Pemilik : "))
 print ("[1]: Anjing")
 print ("[2]: Kucing")
+print ("[3]: Campur")
 jenis = int(input("Input Jenis Hewan : "))
 
 if jenis == 1:
