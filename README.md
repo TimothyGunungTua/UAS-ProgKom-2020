@@ -10,10 +10,11 @@ Adapun alur penggunaan program adalah sebagai berikut
 3. Input fasilitas yang diinginkan
    Setiap fasilitas untuk setiap jenis hewan berbeda beda biayanya seperti yang terlampir pada katalog fasilitas program.
    - Klinik
-	  Fasilitas ini terdiri dari konsultasi dokter, vaksinasi, dan obat bius. Pada tahap ini,silahkan inputkan jumlah hewan yang ingin
-     diberikan fasilitas yang sama. Misalnya untuk konsultasi dokter jumlah hewannya ada 2 (dengan jenis hewan yang sudah dipilih
-     sebelumnya). Khusus untuk pilihan jenis hewan campur (anjing dan kucing), perlu diinputkan jenis hewan apa yang akan diberikan
-     fasilitas ini dan jumlahnya. Lalu akan muncul biaya yang perlu dibayar.
+     a. Fasilitas ini terdiri dari konsultasi dokter, vaksinasi, dan obat bius. Pada tahap ini,silahkan inputkan jumlah hewan yang                     
+        ingin diberikan fasilitas yang sama. Misalnya untuk konsultasi dokter jumlah hewannya ada 2 (dengan jenis hewan yang sudah
+        dipilih sebelumnya). Lalu akan muncul biaya yang perlu dibayar.
+     b. Khusus untuk pilihan jenis hewan campur (anjing dan kucing), perlu diinputkan jenis hewan apa yang akan diberikan
+        fasilitas ini dan jumlahnya. Lalu akan muncul biaya yang perlu dibayar.
    - Grooming
      Fasilitas ini bertujuan untuk merawat penampilan dan kesehatan hewan. Jumlah hewan juga perlu diinputkan pada tahap ini sesuai 
      dengan jenis hewan yang sudah dipilih sebelumnya. Khusus untuk jenis hewan campur (anjing dan kucing), perlu diinputkan jenis
