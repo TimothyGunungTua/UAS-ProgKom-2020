@@ -10,27 +10,35 @@ Adapun alur penggunaan program adalah sebagai berikut
 3. Input fasilitas yang diinginkan
    Setiap fasilitas untuk setiap jenis hewan berbeda beda biayanya seperti yang terlampir pada katalog fasilitas program.
    - Klinik
-     - Fasilitas ini terdiri dari konsultasi dokter, vaksinasi, dan obat bius. Pada tahap ini,silahkan inputkan jumlah hewan yang                     
-       ingin diberikan fasilitas yang sama. Misalnya untuk konsultasi dokter jumlah hewannya ada 2 (dengan jenis hewan yang sudah
-       dipilih sebelumnya). Lalu akan muncul biaya yang perlu dibayar.
-     - Khusus untuk pilihan jenis hewan campur (anjing dan kucing), perlu diinputkan jenis hewan apa yang akan diberikan
-       fasilitas ini dan jumlahnya. Lalu akan muncul biaya yang perlu dibayar.
+     - Jenis hewan anjing dan kucing
+       1. Silahkan inputkan jumlah hewan yang ingin diberikan fasilitas yang sama. Misalnya untuk konsultasi dokter jumlah hewannya ada     
+          2 (dengan jenis hewan yang sudah dipilih sebelumnya)
+       2. Muncul biaya yang perlu dibayar
+     - Khusus untuk pilihan jenis hewan campur (anjing dan kucing)
+       1. Inputkan jenis hewan apa yang akan diberikan fasilitas ini dan jumlahnya
+       2. Muncul biaya yang perlu dibayar
    - Grooming
-     - Untuk jenis hewan anjing dan kucing, jumlah hewan juga perlu diinputkan pada tahap ini sesuai dengan jenis hewan yang sudah 
-       dipilih sebelumnya.Lalu muncul biaya yang perlu dibayar.
-     - Khusus untuk jenis hewan campur (anjing dan kucing), perlu diinputkan jenis hewan yang akan diberikan fasilitas ini dan
-       jumlahnya. Lalu akan muncul biaya yang perlu dibayarkan.
+     - Untuk jenis hewan anjing dan kucing
+       1. Inputkan jumlah pada tahap ini sesuai dengan jenis hewan yang sudah dipilih sebelumnya
+       2. Muncul biaya yang perlu dibayar
+     - Khusus untuk jenis hewan campur (anjing dan kucing)
+       1. Perlu diinputkan jenis hewan yang akan diberikan fasilitas ini dan jumlahnya
+       2. Muncul biaya yang perlu dibayarkan
    - Penitipan
-     - Untuk jenis hewan anjing dan kucing, lansung inputkan data mengenai waktu yang ditanyakan. Inputkan jumlah hewan yang akan          
-       diberikan fasilitas. Muncul biaya yang perlu dibayar.
-     - Khusus untuk jenis hewan campur (anjing dan kucing),inputkan dahulu jenis hewan apa yang ingin diberikan
-       fasilitas ini, lalu akan ditanyakan data mengenai waktu masuknya hewan.Data yang perlu diinputkan adalah tanggal, bulan, jam
-       (format 24 jam), menit, dan detik masuknya hewan. Lalu inputkan jenis hewan yang akan diberikan fasilitas ini dan akan muncul
-       biaya yang perlu dibayar untuk penitipan.
-4. Setelah menginput fasilitas yang dibutuhkan, akan ditanyakan apakah masih ingin menambah operasi lainnya untuk jenis hewan yang sama
-  sesuai yang sudah dipilih sebelumnya. Jika iya, maka program akan kembali ke fasilitas yang diperlukan. Hal ini juga berlaku untuk
-  jenis hewan campur (anjing dan kucing),hanya saja perbedaanya ada pada pertanyaannya yaitu tidak ada kata kata hewan yang sama karena
-  nanti akan ditanyakan kembali jenis hewan yang akan diberikan fasilitas.
+     - Untuk jenis hewan anjing dan kucing
+       1. Langsung inputkan data mengenai waktu yang ditanyakan dan jumlah hewan yang akan diberikan fasilitas
+       2. Muncul biaya yang perlu dibayar
+     - Khusus untuk jenis hewan campur (anjing dan kucing)
+       1. Inputkan dahulu jenis hewan apa yang ingin diberikan fasilitas ini
+       2. Akan ditanyakan data mengenai waktu masuknya hewan.Data yang perlu diinputkan adalah tanggal, bulan, jam
+          (format 24 jam), menit, dan detik masuknya hewan
+       3. Inputkan jenis hewan yang akan diberikan fasilitas ini
+       4. Muncul biaya yang perlu dibayar untuk penitipan
+4. Inputkan apakah masih ingin menambah operasi lainnya untuk jenis hewan yang sama sesuai yang sudah dipilih sebelumnya. 
+   - Jika yes,maka program akan kembali ke fasilitas yang diperlukan. Untuk jenis hewan campur (anjing dan kucing) juga sama,hanya saja 
+     perbedaanya ada pada pertanyaannya yaitu tidak ada kata kata hewan yang sama karena nanti akan ditanyakan kembali jenis hewan yang  
+     akan diberikan fasilitas
+   - Jika no, program selesai
 # Katalog Fasilitas Program
   - Klinik Hewan
     - Konsultasi Dokter
