@@ -11,8 +11,8 @@ Adapun alur penggunaan program adalah sebagai berikut
    Setiap fasilitas untuk setiap jenis hewan berbeda beda biayanya seperti yang terlampir pada katalog fasilitas program.
    - Klinik
      - Jenis hewan anjing dan kucing
-       1. Silahkan inputkan jumlah hewan yang ingin diberikan fasilitas yang sama. Misalnya untuk konsultasi dokter jumlah hewannya ada     
-          2 (dengan jenis hewan yang sudah dipilih sebelumnya)
+       1. Silahkan inputkan jumlah hewan yang ingin diberikan fasilitas yang sama. Misalnya untuk konsultasi jumlah hewannya ada  2   
+          (dengan jenis hewan yang sudah dipilih sebelumnya)
        2. Muncul biaya yang perlu dibayar
      - Khusus untuk pilihan jenis hewan campur (anjing dan kucing)
        1. Inputkan jenis hewan apa yang akan diberikan fasilitas ini dan jumlahnya
