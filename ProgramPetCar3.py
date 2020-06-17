@@ -1,4 +1,9 @@
 iterasi = True
+aa = True
+bb = True
+list = ["[No] - [Jenis Hewan] - [Fasilitas] - [Keterangan] - [Biaya]"]
+set = []
+biaya = []
 
 def time1(): 
     from datetime import date
@@ -199,8 +204,34 @@ print ("===============================================================")
 print ("                           PET CARE                            ")
 print ("===============================================================")
 print ()
-print (input("Input Nama Petugas : "))
-print (input("Input Nama Pemilik : "))
+while bb:
+    try:
+        petugas = input("Input Nama Petugas : ")
+        if petugas=='':
+            raise ValueError
+        else:
+            bb =False
+    except Exception:
+        print ('Wajib diisi')
+        petugas = input("Input Nama Petugas : ")
+        if petugas=='':
+            bb = True
+        else:
+            bb = False            
+while aa:
+    try:
+        pemilik = input("Input Nama Pemilik : ")
+        if pemilik == '':
+            raise ValueError
+        else:
+            aa=False
+    except Exception:
+        print ('Wajib diisi')
+        pemilik = input("Input Nama Pemilik : ")
+        if pemilik== '':
+            aa=True
+        else:
+            aa=False
 print ("[1]: Anjing")
 print ("[2]: Kucing")
 print ("[3]: Campur")
