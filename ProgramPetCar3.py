@@ -35,15 +35,6 @@ def time1():
     import math
     selisih_wkt = wkt_out - wkt_in
     durasijam= math.ceil(selisih_wkt/3600)
-
-    print()
-    print("----------------------------------")
-    print("       Billing PetCare 2020 ")
-    print("----------------------------------")
-    print("Masuk ", "\n  ",tgl_in, "\n   pukul", jam,":", menit,":", detik)
-    print("Keluar \n  ", tgl_out, "\n   pukul",jam_out,":",menit_out,":",detik_out )
-    print('Peliharaan anda menginap selama :')
-    print("  ",selisih_tgl.days, 'hari ', durasijam,"jam")
     
 def anjing():
     time1()
