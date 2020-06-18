@@ -75,7 +75,7 @@ def anjing() :
             biaya.append(bayar)
     else :
         print ("Sistem Error")
-    list5 = [j],['Anjing'],['Penitipan'],['Penitipan',jumlaha,'ekor','selama',selisih_tgl.days,'hari',durasijam,'jam'],['Rp.', biaya]
+    list5 = [j],['Anjing'],['Penitipan'],['Penitipan',jumlaha,'ekor','selama',selisih_tgl.days,'hari',durasijam,'jam'],['Rp.', bayar]
     set.append(list5)
                
 def kucingnginep():
@@ -96,7 +96,7 @@ def kucingnginep():
             biaya.append(bayar)
     else :
         print ("Sistem Error")
-    list10 = [j], ['Kucing'],['Penitipan'],['Penitipan',jumlahk,'ekor','selama',selisih_tgl.days,'hari',durasijam,'jam'],['Rp.', biaya]
+    list10 = [j], ['Kucing'],['Penitipan'],['Penitipan',jumlahk,'ekor','selama',selisih_tgl.days,'hari',durasijam,'jam'],['Rp.', bayar]
     set.append(list10)
         
             
