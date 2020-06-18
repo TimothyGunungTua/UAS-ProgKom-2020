@@ -69,7 +69,10 @@ def anjing() :
             print("Tarif total : Rp.", bayar)
             biaya.append(bayar)
         else :
-            print ("Sistem Error")
+            bayar = ((selisih_tgl.days * 25000))*jumlaha
+            print("Tarif per hewan : Rp.", selisih_tgl.days*25000)
+            print("Tarif total : Rp ", bayar)
+            biaya.append(bayar)
     else :
         print ("Sistem Error")
     list5 = [j],['Anjing'],['Penitipan'],['Penitipan',jumlaha,'ekor','selama',selisih_tgl.days,'hari',durasijam,'jam'],['Rp.', biaya]
@@ -87,7 +90,10 @@ def kucingnginep():
             print("Tarif total : Rp.", bayar)
             biaya.append(bayar)
         else :
-            print ("Sistem Error")
+            bayar = ((selisih_tgl.days * 20000))*jumlahk
+            print("Tarif per hewan : Rp.", selisih_tgl.days*20000)
+            print("Tarif total : Rp ", bayar)
+            biaya.append(bayar)
     else :
         print ("Sistem Error")
     list10 = [j], ['Kucing'],['Penitipan'],['Penitipan',jumlahk,'ekor','selama',selisih_tgl.days,'hari',durasijam,'jam'],['Rp.', biaya]
