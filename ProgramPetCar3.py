@@ -153,7 +153,7 @@ def klinikK () :
         harga_vaksin = 80000*(jumlah5)
         print ("Harga vaksinasi : Rp.80000 per hewan")
         print ("Total harga vaksinasi : Rp.", harga_vaksin)
-        list7 = j,['Kucing'],['Klinik'],['Vaksinasi untuk', jumlah5, 'ekor'],['Rp.', harga_vaksin]
+        list7 = [j],['Kucing'],['Klinik'],['Vaksinasi untuk', jumlah5, 'ekor'],['Rp.', harga_vaksin]
         set.append(list7)
         biaya.append(harga_vaksin)
     elif klk == "3" :
@@ -161,7 +161,7 @@ def klinikK () :
         lain = 45000
         jumlah11 = int(input("Jumlah hewan : "))
         print ("Total harga obat bius : Rp.", lain*jumlah11)
-        list8 = j, ['Kucing'],['Klinik'],['Obat bius untuk', jumlah11, 'ekor'],['Rp.', lain]
+        list8 = [j], ['Kucing'],['Klinik'],['Obat bius untuk', jumlah11, 'ekor'],['Rp.', lain]
         set.append(list8)
         biaya.append(lain)
     else :
