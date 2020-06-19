@@ -125,8 +125,8 @@ def klinikA () :
     elif klk == "3" :
         print("Biaya obat bius per anjing : Rp.50000")
         jumlah3 = int(input("Jumlah hewan:"))
-        lain = 50000
-        print("Total harga obat bius : Rp.", lain*jumlah3)
+        lain = 50000*jumlah3
+        print("Total harga obat bius : Rp.", lain)
         list3 = [j],['Anjing'],['Klinik'],['Obat bius untuk', jumlah3, 'ekor'],['Rp.', lain]
         set.append(list3)
         biaya.append(lain)
