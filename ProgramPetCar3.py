@@ -69,7 +69,7 @@ def anjing() :
             print("Tarif total : Rp.", bayar)
             biaya.append(bayar)
         else :
-           print ("sistem error"
+           print ("sistem error")
     else :
         bayar = (25000)*jumlaha
         print("Tarif per hewan : Rp.25000")
