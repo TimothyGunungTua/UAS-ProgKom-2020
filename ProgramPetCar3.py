@@ -96,7 +96,7 @@ def kucingnginep():
         ii.displayTime()
         print("Tarif inap per hewan : Rp.20000")
         print("Tarif total : Rp.", bayar)
-        biaya.append(bayar
+        biaya.append(bayar)
     list10 = [j], ['Kucing'],['Penitipan'],['Penitipan',jumlahk,'ekor','selama',selisih_tgl.days,'hari',durasijam,'jam'],['Rp.',bayar]
     set.append(list10)
         
