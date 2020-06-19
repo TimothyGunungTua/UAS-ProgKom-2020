@@ -61,7 +61,7 @@ def anjing() :
     ii= time1(0,0,0,0,0,0,0,0,0,0)
     print("Jenis hewan : Anjing")
     jumlaha =int(input("Jumlah hewan:"))
-    if selisih_tgl.days >= 0 :
+    if 24>= selisih_tgl.days >= 0 :
         if 24 >= round(durasijam) >= 0 : 
             bayar = (25000)*jumlaha
             ii.displayTime()
