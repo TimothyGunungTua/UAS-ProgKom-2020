@@ -63,18 +63,18 @@ def anjing() :
     jumlaha =int(input("Jumlah hewan:"))
     if selisih_tgl.days > 0 :
         if round(durasijam) <= 24 : 
-            bayar = (25000)*jumlaha
+            bayar = selisih_tgl.days*(25000)*jumlaha
             ii.displayTime()
-            print("Tarif inap per hewan : Rp.", (1*25000))
+            print("Tarif inap per hewan : Rp.",(selisih_tgl.days*25000))
             print("Tarif total : Rp.", bayar)
             biaya.append(bayar)
         else :
-            bayar = ((selisih_tgl.days * 25000))*jumlaha
-            print("Tarif per hewan : Rp.", selisih_tgl.days*25000)
-            print("Tarif total : Rp ", bayar)
-            biaya.append(bayar)
+           print ("sistem error"
     else :
-        print ("Sistem Error")
+        bayar = (25000)*jumlaha
+        print("Tarif per hewan : Rp.25000")
+        print("Tarif total : Rp ", bayar)
+        biaya.append(bayar)
     list5 = [j],['Anjing'],['Penitipan'],['Penitipan',jumlaha,'ekor','selama',selisih_tgl.days,'hari',durasijam,'jam'],['Rp.',bayar]
     set.append(list5)
                
@@ -84,18 +84,19 @@ def kucingnginep():
     jumlahk = int(input("Jumlah hewan:"))
     if selisih_tgl.days > 0 :
         if 24 >= round(durasijam) >= 0 :
-            bayar = (20000)*jumlahk
+            bayar = (20000)*jumlaha*selisih_tgl.days
             ii.displayTime()
-            print("Tarif inap per hewan : Rp.", (1*20000))
+            print("Tarif inap per hewan : Rp.",(selisih_tgl.days*20000))
             print("Tarif total : Rp.", bayar)
             biaya.append(bayar)
         else :
-            bayar = ((selisih_tgl.days * 20000))*jumlahk
-            print("Tarif per hewan : Rp.", selisih_tgl.days*20000)
-            print("Tarif total : Rp ", bayar)
-            biaya.append(bayar)
+            print ("Sistem Error")
     else :
-        print ("Sistem Error")
+        bayar = (20000)*jumlaha
+        ii.displayTime()
+        print("Tarif inap per hewan : Rp.20000")
+        print("Tarif total : Rp.", bayar)
+        biaya.append(bayar
     list10 = [j], ['Kucing'],['Penitipan'],['Penitipan',jumlahk,'ekor','selama',selisih_tgl.days,'hari',durasijam,'jam'],['Rp.',bayar]
     set.append(list10)
         
