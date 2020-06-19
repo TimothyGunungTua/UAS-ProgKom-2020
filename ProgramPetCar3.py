@@ -84,7 +84,7 @@ def kucingnginep():
     jumlahk = int(input("Jumlah hewan:"))
     if selisih_tgl.days > 0 :
         if 24 >= round(durasijam) >= 0 :
-            bayar = (20000)*jumlaha*selisih_tgl.days
+            bayar = (20000)*jumlahk*selisih_tgl.days
             ii.displayTime()
             print("Tarif inap per hewan : Rp.",(selisih_tgl.days*20000))
             print("Tarif total : Rp.", bayar)
@@ -92,7 +92,7 @@ def kucingnginep():
         else :
             print ("Sistem Error")
     else :
-        bayar = (20000)*jumlaha
+        bayar = (20000)*jumlahk
         ii.displayTime()
         print("Tarif inap per hewan : Rp.20000")
         print("Tarif total : Rp.", bayar)
