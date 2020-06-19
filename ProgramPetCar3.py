@@ -62,7 +62,7 @@ def anjing() :
     print("Jenis hewan : Anjing")
     jumlaha =int(input("Jumlah hewan:"))
     if selisih_tgl.days >= 0 :
-        if 24 > round(durasijam) > 0 : 
+        if 24 >= round(durasijam) >= 0 : 
             bayar = (25000)*jumlaha
             ii.displayTime()
             print("Tarif inap per hewan : Rp.", (selisih_tgl.days*25000))
@@ -75,14 +75,14 @@ def anjing() :
             biaya.append(bayar)
     else :
         print ("Sistem Error")
-    list5 = [j],['Anjing'],['Penitipan'],['Penitipan',jumlaha,'ekor','selama',selisih_tgl.days,'hari',durasijam,'jam'],['Rp.', bayar]
+    list5 = [j],['Anjing'],['Penitipan'],['Penitipan',jumlaha,'ekor','selama',selisih_tgl.days,'hari',durasijam,'jam'],['Rp.',bayar]
     set.append(list5)
                
 def kucingnginep():
     ii= time1(0,0,0,0,0,0,0,0,0,0)
     print("Jenis hewan : Kucing")
     jumlahk = int(input("Jumlah hewan:"))
-    if selisih_tgl.days >= 0 :
+    if 24 >= selisih_tgl.days >= 0 :
         if 24 > round(durasijam) > 0 :
             bayar = (20000)*jumlahk
             ii.displayTime()
@@ -96,7 +96,7 @@ def kucingnginep():
             biaya.append(bayar)
     else :
         print ("Sistem Error")
-    list10 = [j], ['Kucing'],['Penitipan'],['Penitipan',jumlahk,'ekor','selama',selisih_tgl.days,'hari',durasijam,'jam'],['Rp.', bayar]
+    list10 = [j], ['Kucing'],['Penitipan'],['Penitipan',jumlahk,'ekor','selama',selisih_tgl.days,'hari',durasijam,'jam'],['Rp.',bayar]
     set.append(list10)
         
             
