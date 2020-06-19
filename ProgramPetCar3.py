@@ -65,7 +65,7 @@ def anjing() :
         if round(durasijam) <= 24 : 
             bayar = (25000)*jumlaha
             ii.displayTime()
-            print("Tarif inap per hewan : Rp.", (selisih_tgl.days*25000))
+            print("Tarif inap per hewan : Rp.", (1*25000))
             print("Tarif total : Rp.", bayar)
             biaya.append(bayar)
         else :
@@ -86,7 +86,7 @@ def kucingnginep():
         if 24 >= round(durasijam) >= 0 :
             bayar = (20000)*jumlahk
             ii.displayTime()
-            print("Tarif inap per hewan : Rp.", (selisih_tgl.days*20000))
+            print("Tarif inap per hewan : Rp.", (1*20000))
             print("Tarif total : Rp.", bayar)
             biaya.append(bayar)
         else :
