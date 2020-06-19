@@ -61,8 +61,8 @@ def anjing() :
     ii= time1(0,0,0,0,0,0,0,0,0,0)
     print("Jenis hewan : Anjing")
     jumlaha =int(input("Jumlah hewan:"))
-    if 24>= selisih_tgl.days >= 0 :
-        if 24 >= round(durasijam) >= 0 : 
+    if selisih_tgl.days > 0 :
+        if round(durasijam) <= 24 : 
             bayar = (25000)*jumlaha
             ii.displayTime()
             print("Tarif inap per hewan : Rp.", (selisih_tgl.days*25000))
@@ -82,8 +82,8 @@ def kucingnginep():
     ii= time1(0,0,0,0,0,0,0,0,0,0)
     print("Jenis hewan : Kucing")
     jumlahk = int(input("Jumlah hewan:"))
-    if 24 >= selisih_tgl.days >= 0 :
-        if 24 > round(durasijam) > 0 :
+    if selisih_tgl.days > 0 :
+        if 24 >= round(durasijam) >= 0 :
             bayar = (20000)*jumlahk
             ii.displayTime()
             print("Tarif inap per hewan : Rp.", (selisih_tgl.days*20000))
